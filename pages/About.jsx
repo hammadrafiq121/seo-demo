@@ -8,6 +8,7 @@ export default function About() {
       <Helmet>
         <title>About</title>
         <meta name="description" content="the is my  About Page" />
+        <link rel="canonical" href="/about" />
       </Helmet>
       <div className="about-page-container">
         <img src={bgImg} className="about-hero-image" />

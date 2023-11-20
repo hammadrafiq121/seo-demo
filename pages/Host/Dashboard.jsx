@@ -7,6 +7,7 @@ export default function Dashboard() {
       <Helmet>
         <title>Host</title>
         <meta name="description" content="the is my host page" />
+        <link rel="canonical" href="/host" />
       </Helmet>
       ;<h1>Dashboard goes here</h1>
     </>
